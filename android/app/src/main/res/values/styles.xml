@@ -1,0 +1,45 @@
+<resources>
+
+	<!-- Base application theme. -->
+	<style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+		<!-- Customize your theme here. -->
+		<item name="android:statusBarColor">#151515</item>
+		<item name="android:windowLightStatusBar">true</item>
+		<item name="android:navigationBarColor">#151515</item>
+		<item name="android:windowLightNavigationBar">true</item>
+		<item name="colorPrimary">@color/AppThemeColor</item>
+		<item name="colorPrimaryDark">@color/AppThemeColor</item>
+		<item name="colorAccent">@color/AppThemeColor</item>
+		<item name="android:colorBackground">#FFFFFF</item>
+		<item name="android:textColor">#FFFFFF</item>
+	</style>
+
+	<style name="APPThemeNight" parent="Theme.AppCompat.Light.NoActionBar">
+		<item name="colorPrimary">@color/AppThemeColor</item>
+		<item name="colorPrimaryDark">@color/AppThemeColor</item>
+		<item name="colorAccent">@color/AppThemeColor</item>
+		<item name="android:colorBackground">#151515</item>
+		<item name="android:statusBarColor">#151515</item>
+		<item name="android:textColor">#FFFFFF</item>
+	</style>
+
+	<style name="SplashTheme" parent="Theme.AppCompat.Light.NoActionBar">
+		<item name="android:windowBackground">@drawable/background_splash</item>
+		<item name="android:statusBarColor">#000000</item>
+		<item name="android:windowLightStatusBar">true</item>
+		<item name="android:navigationBarColor">#000000</item>
+		<item name="android:windowLightStatusBar">true</item>
+		<item name="android:windowLightNavigationBar">true</item>
+		<item name="android:textColor">#FFFFFF</item>
+	</style>
+
+	<style name="Toolbar.TitleText" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+		<item name="android:textSize">20sp</item><!--toolbar标题字体大小-->
+		<item name="android:textColor">#ffffff</item><!--toolbar标题字体颜色-->
+	</style>
+
+	<style name="ToolbarTheme" parent="Theme.AppCompat.Light.NoActionBar">
+		<item name="actionMenuTextColor">#ffffff</item> <!--menu字体颜色-->
+		<item name="android:textSize">18sp</item> <!--menu字体大小-->
+	</style>
+</resources>

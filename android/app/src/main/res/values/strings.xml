@@ -1,0 +1,4 @@
+<resources>
+	<string name="app_name">CWallet</string>
+	<string name="change_theme">切换主题</string>
+</resources>
